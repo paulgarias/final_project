@@ -18,8 +18,11 @@ Data Deep Dive:
 
 Process:
 
-1. Created a Jupyter Notebook in Google Collab 
+1. Created a Jupyter Notebook in Google Collab (Handwriting_Collab.ipynb)
 2. Dependencies: Matplotlib Pyplot, cv2, numpy, keras, tensorflow, pandas, sklearn
 3. Data: Used one csv file with A-Z Handwritten Data for analaysis. 370K+ English Alphabet Characters, 785 columns, 666.53 MB
 4. Data Source: Kaggle.com: https://www.kaggle.com/sachinpatel21/az-handwritten-alphabets-in-csv-format
 5. Load and Pre-process Data, Reshape Test and Train Datasets, Create and Load Model, Compile and Fit Model, Make Predictions
+6. Created a Flask application (app.py)
+7. Dependencies: flask, werkzeug.utils, tensorflow, keras, cv2, numpy
+8. Takes a character image to upload and uses our model to make a prediction on that character.
