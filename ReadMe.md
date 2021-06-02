@@ -14,8 +14,6 @@ Machine Learning
 
 Topic: Character Recognition Using Convolutional Neural Network Architecture.
 
-Data Deep Dive:
-
 Process:
 
 1. Created a Jupyter Notebook in Google Collab (Handwriting_Collab.ipynb)
