@@ -8,8 +8,6 @@ import numpy as np
 
 app = Flask(__name__)
 
-#model = tf.keras.models.load_model('model_hand.h5')
-
 try:
     model = keras.models.load_model("model_hand.h5")
 except:
